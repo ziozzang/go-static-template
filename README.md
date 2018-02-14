@@ -1,14 +1,13 @@
 # go-static-template
-Golang Static Binary build with docker templates
+Golang Static Binary build script templates, with docker version of golang.
 
 # TL;DR
-
-* This template generate linux base static binary.
-* you can use any golang project with this build templates.
-* This scripts are trying to download external github library.
+* This templates to generate linux base static binary.
+* You can use any golang project with this build templates.
+* This scripts are automatically download external library at github.
 
 # Pre-requisit
-* docker installed.
+* docker installed.(+internet connected to download container images and external library)
 * any linux or mac osx with bash installed.
 
 # how to use
