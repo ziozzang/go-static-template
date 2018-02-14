@@ -1,0 +1,5 @@
+curl -o build.sh \
+  https://raw.githubusercontent.com/ziozzang/go-static-template/master/build.sh && \
+curl -o make \
+  https://raw.githubusercontent.com/ziozzang/go-static-template/master/make && \
+chmod +x build.sh
