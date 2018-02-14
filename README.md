@@ -11,7 +11,11 @@ Golang Static Binary build script templates, with docker version of golang.
 * any linux or mac osx with bash installed.
 
 # how to use
-1. Just copy 'make' and 'build.sh' to any golang project
+1. Just copy 'make' and 'build.sh' to any golang project. or just run command
+```
+curl https://raw.githubusercontent.com/ziozzang/go-static-template/master/install | bash
+```
+
 2. run "build.sh".
 3. you can get static built binary.
 
