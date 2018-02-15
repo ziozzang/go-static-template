@@ -1,7 +1,7 @@
 #!/bin/bash
 # Code  by Jioh L. Jung<ziozzang@gmail.com>
 
-BIN_NAME="${PWD##*/}"
+BIN_NAME="${BIN_NAME:-${PWD##*/}}"
 BUILD_DIRS="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 GO_VERSION=${GO_VERSION:-latest}
 

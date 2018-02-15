@@ -25,6 +25,12 @@ curl https://raw.githubusercontent.com/ziozzang/go-static-template/master/instal
 GO_VERSION=1.8 ./build.sh
 ```
 
+* if you want to set specific binary name, use like this
+
+```
+BIN_NAME=foo ./build.sh
+```
+
 * defulat golang version is latest. (docker version of golang tag)
     * you can check docker tags [here](https://hub.docker.com/_/golang/)
 
